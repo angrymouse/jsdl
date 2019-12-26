@@ -1,6 +1,6 @@
 {
   "name": "jsdl",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "description": "An library for downloading front-end js libraries",
   "main": "main.js",
   "scripts": {
@@ -24,5 +24,10 @@
   },
   "bin": {
     "jsdl": "./bin.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/miceve/jsdl.git"
+  },
+  "homepage": "https://github.com/miceve/jsdl#readme"
 }
