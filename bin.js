@@ -7,7 +7,7 @@ const jsdl=require('./main');
 console.log("Downloading started...");
 try {
   jsdl(process.argv[2],(code)=>{
-    fs.writeFileSync(process.cwd()+"/"+process.argv[2])
+    fs.writeFileSync(process.cwd()+"/"+process.argv[2],code)
   })
 } catch (err) {
 return console.error(err.text)
