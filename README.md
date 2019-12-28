@@ -41,11 +41,11 @@ Linux/MacOS users:
 ```bash
 sudo npm i -g jsdl
 ```
-But you can use without installing!
-Just use npx command instead native jsdl cli
-(``npx jsdl`` instead ``jsdl``, arguments like with CLI)
 To use API in your project install it locally:
 ```bash
 cd my-project
 npm i jsdl
 ```
+But you can use CLI without installing!
+Just use npx command instead native jsdl CLI.
+(``npx jsdl`` instead ``jsdl``, arguments like with CLI).
