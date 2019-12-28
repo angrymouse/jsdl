@@ -5,6 +5,11 @@ It is very simple in use:
 cd /user/me/my-awesome-project/
 jsdl jquery.min.js
 ```
+or
+```bash
+cd /user/me/my-awesome-project/
+npx jsdl jquery.min.js #this command will work even without installing jsdl CLI!
+```
 After this command you can find jQuery library in root of your project (in example root of project is ``/user/me/my-awesome-project/``).
 Also it have a NodeJS api.
 Usage:
@@ -36,6 +41,9 @@ Linux/MacOS users:
 ```bash
 sudo npm i -g jsdl
 ```
+But you can use without installing!
+Just use npx command instead native jsdl cli
+(``npx jsdl`` instead ``jsdl``, arguments like with CLI)
 To use API in your project install it locally:
 ```bash
 cd my-project
